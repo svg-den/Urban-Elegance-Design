@@ -1,12 +1,13 @@
 import React from "react";
 import Slider from "react-slick";
+import { NextArrow, PrevArrow } from "../components/CustomArrows"; 
 import sleeping1 from "../assets/sleeping1.jpeg";
 import sleeping2 from "../assets/sleeping2.jpeg";
 import sleeping3 from "../assets/sleeping3.jpeg";
 import sleeping4 from "../assets/sleeping4.jpeg";
 import sleeping5 from "../assets/sleeping5.jpeg";
 
-const Living = () => {
+const Sleeping = () => {
   const settings = {
     dots: true,
     infinite: true,
@@ -16,6 +17,8 @@ const Living = () => {
     autoplay: true,
     autoplaySpeed: 3000,
     pauseOnHover: true,
+    nextArrow: <NextArrow />, 
+    prevArrow: <PrevArrow />, 
   };
 
   return (
@@ -27,35 +30,35 @@ const Living = () => {
             <img
               src={sleeping1}
               alt="Sleeping Area 1"
-              className="w-1/5 h-64 object-cover rounded-lg mx-auto"
+              className="w-2/5 h-640 object-cover rounded-lg mx-auto"
             />
           </div>
           <div>
             <img
               src={sleeping2}
               alt="Sleeping Area 2"
-              className="w-1/5 h-64 object-cover rounded-lg mx-auto"
+              className="w-2/5 h-640 object-cover rounded-lg mx-auto"
             />
           </div>
           <div>
             <img
               src={sleeping3}
               alt="Sleeping Area 3"
-              className="w-1/5 h-64 object-cover rounded-lg mx-auto"
+              className="w-2/5 h-640 object-cover rounded-lg mx-auto"
             />
           </div>
           <div>
             <img
               src={sleeping4}
               alt="Sleeping Area 4"
-              className="w-1/5 h-64 object-cover rounded-lg mx-auto"
+              className="w-2/5 h-640 object-cover rounded-lg mx-auto"
             />
           </div>
           <div>
             <img
               src={sleeping5}
               alt="Sleeping Area 5"
-              className="w-1/5 h-64 object-cover rounded-lg mx-auto"
+              className="w-2/5 h-640 object-cover rounded-lg mx-auto"
             />
           </div>
         </Slider>
@@ -64,7 +67,8 @@ const Living = () => {
   );
 };
 
-export default Living;
+export default Sleeping;
+
 
 
 // import React from "react";
@@ -75,7 +79,7 @@ export default Living;
 // import sleeping4 from "../assets/sleeping4.jpeg";
 // import sleeping5 from "../assets/sleeping5.jpeg";
 
-// const Living = () => {
+// const Sleeping = () => {
 //   const settings = {
 //     dots: true,
 //     infinite: true,
@@ -133,4 +137,4 @@ export default Living;
 //   );
 // };
 
-// export default Living;
+// export default Sleeping;

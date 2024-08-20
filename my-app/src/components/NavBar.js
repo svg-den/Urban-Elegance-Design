@@ -2,7 +2,7 @@ import React from 'react';
 import { useState } from 'react';
 import { FaBars, FaTimes } from 'react-icons/fa';
 import { Link } from 'react-scroll';
-import Logo from '../assets/logo.jpg';
+import Logo from '../assets/logo1.jpg';
 
 const Navbar = () => {
     const [nav, setNav] = useState(false);

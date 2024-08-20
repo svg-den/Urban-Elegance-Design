@@ -1,6 +1,7 @@
 import React from "react";
 import Slider from "react-slick";
-import office1 from "../assets/office1.jpeg";
+import { NextArrow, PrevArrow } from "../components/CustomArrows"; 
+import office1 from "../assets/office1.jpeg";  
 import office2 from "../assets/office2.jpeg";
 import office3 from "../assets/office3.jpeg";
 import office4 from "../assets/office4.jpeg";
@@ -16,6 +17,8 @@ const Office = () => {
     autoplay: true,
     autoplaySpeed: 3000,
     pauseOnHover: true,
+    nextArrow: <NextArrow />, 
+    prevArrow: <PrevArrow />, 
   };
 
   return (
@@ -26,7 +29,7 @@ const Office = () => {
               <img
                 src={office1}
                 alt="Office Area 1"
-                className="w-1/5 h-64 object-cover rounded-lg mx-auto"
+                className="w-2/5 h-640 object-cover rounded-lg mx-auto"
        
               />
             </div>
@@ -34,7 +37,7 @@ const Office = () => {
               <img
                 src={office2}
                 alt="Office Area 2"
-                className="w-1/5 h-64 object-cover rounded-lg mx-auto"
+                className="w-2/5 h-640 object-cover rounded-lg mx-auto"
        
               />
             </div>
@@ -42,7 +45,7 @@ const Office = () => {
               <img
                 src={office3}
                 alt="Office Area 3"
-                className="w-1/5 h-64 object-cover rounded-lg mx-auto"
+                className="w-2/5 h-640 object-cover rounded-lg mx-auto"
        
               />
             </div>

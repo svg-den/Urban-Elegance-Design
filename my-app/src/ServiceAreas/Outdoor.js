@@ -1,4 +1,5 @@
 import React from "react";
+import { NextArrow, PrevArrow } from "../components/CustomArrows"; 
 import Slider from "react-slick";
 import outdoor1 from "../assets/outdoor1.jpeg";
 import outdoor from "../assets/outdoor.jpeg";
@@ -16,6 +17,9 @@ const Outdoor = () => {
     autoplay: true,
     autoplaySpeed: 3000,
     pauseOnHover: true,
+    nextArrow: <NextArrow />, 
+    prevArrow: <PrevArrow />, 
+
   };
 
   return (
@@ -26,7 +30,7 @@ const Outdoor = () => {
               <img
                 src={outdoor1}
                 alt="Outdoor Area 1"
-                className="w-1/5 h-64 object-cover rounded-lg mx-auto"
+                className="w-2/5 h-640 object-cover rounded-lg mx-auto"
        
               />
             </div>
@@ -34,7 +38,7 @@ const Outdoor = () => {
               <img
                 src={outdoor}
                 alt="Outdoor Area 2"
-                className="w-1/5 h-64 object-cover rounded-lg mx-auto"
+                className="w-2/5 h-640 object-cover rounded-lg mx-auto"
        
               />
             </div>
@@ -42,7 +46,7 @@ const Outdoor = () => {
               <img
                 src={outdoor3}
                 alt="Outdoor Area 3"
-                className="w-1/5 h-64 object-cover rounded-lg mx-auto"
+                className="w-2/5 h-640 object-cover rounded-lg mx-auto"
        
               />
             </div>
@@ -50,7 +54,7 @@ const Outdoor = () => {
               <img
                 src={outdoor4}
                 alt="Outdoor Area 4"
-                className="w-1/5 h-64 object-cover rounded-lg mx-auto"
+                className="w-2/5 h-640 object-cover rounded-lg mx-auto"
        
               />
             </div>
@@ -58,7 +62,7 @@ const Outdoor = () => {
               <img
                 src={outdoor5}
                 alt="Outdoor Area 5"
-                className="w-1/5 h-64 object-cover rounded-lg mx-auto"
+                className="w-2/5 h-640 object-cover rounded-lg mx-auto"
        
               />
             </div>

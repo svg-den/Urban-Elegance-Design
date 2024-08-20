@@ -1,4 +1,5 @@
 import React from "react";
+import { NextArrow, PrevArrow } from "../components/CustomArrows"; 
 import Slider from "react-slick";
 import kitchen1 from "../assets/kitchen1.jpeg";
 import kitchen2 from "../assets/kitchen2.jpeg";
@@ -16,6 +17,9 @@ const Kitchen = () => {
     autoplay: true,
     autoplaySpeed: 3000,
     pauseOnHover: true,
+    nextArrow: <NextArrow />, 
+    prevArrow: <PrevArrow />, 
+
   };
 
   return (
@@ -26,7 +30,7 @@ const Kitchen = () => {
               <img
                 src={kitchen1}
                 alt="Kitchen Area 1"
-                className="w-1/5 h-64 object-cover rounded-lg mx-auto
+                className="w-2/5 h-640 object-cover rounded-lg mx-auto
   "
               />
             </div>
@@ -34,7 +38,7 @@ const Kitchen = () => {
               <img
                 src={kitchen2}
                 alt="Kitchen Area 2"
-                className="w-1/5 h-64 object-cover rounded-lg mx-auto
+                className="w-2/5 h-640 object-cover rounded-lg mx-auto
   "
               />
             </div>
@@ -42,7 +46,7 @@ const Kitchen = () => {
               <img
                 src={kitchen3}
                 alt="Kitchen Area 3"
-                className="w-1/5 h-64 object-cover rounded-lg mx-auto
+                className="w-2/5 h-640 object-cover rounded-lg mx-auto
   "
               />
             </div>
@@ -50,7 +54,7 @@ const Kitchen = () => {
               <img
                 src={kitchen4}
                 alt="Kitchen Area 4"
-                className="w-1/5 h-64 object-cover rounded-lg mx-auto
+                className="w-2/5 h-640 object-cover rounded-lg mx-auto
   "
               />
             </div>
@@ -58,7 +62,7 @@ const Kitchen = () => {
               <img
                 src={kitchen5}
                 alt="Kitchen Area 5"
-                className="w-1/5 h-64 object-cover rounded-lg mx-auto
+                className="w-2/5 h-640 object-cover rounded-lg mx-auto
   "
               />
             </div>

@@ -1,21 +1,20 @@
 import React from "react";
 import { BrowserRouter as Router, Route, Routes, Link } from "react-router-dom";
-import Living from "./Living";
-import Dining from "./Dining";
-import Sleeping from "./Sleeping";
-import Kitchen from "./Kitchen";
-import Office from "./Office";
-import Outdoor from "./Outdoor";
+import Living from "../ServiceAreas/Living";
+import Dining from "../ServiceAreas/Dining";
+import Sleeping from "../ServiceAreas/Sleeping";
+import Kitchen from "../ServiceAreas/Kitchen";
+import Office from "../ServiceAreas/Office";
+import Outdoor from "../ServiceAreas/Outdoor";
 
 const Service = () => {
   return (
     <Router>
-      <div className="p-8 px-16 font-sans">
-        <h1 className="text-4xl font-bold mb-8">Our Services</h1>
-        <h3 className="text-xl text-center font-bold text-gray-800 mb-4 underline">
-          Service Areas
-        </h3>
-        {/* Service Links */}
+<div id="services" className="max-w-screen-lg mt-8 py-10 px-4 mx-auto flex flex-col justify-center w-full h-full">
+  {/* <h1 className="text-4xl font-bold mb-8">Our Services</h1> */}
+  <h3 className="text-4xl text-center font-bold text-gray-800 mb-14 underline">
+    Our Service Areas
+  </h3>        {/* Service Links */}
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-8 text-center">
           <div className="px-16">
             <Link
