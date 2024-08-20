@@ -2,7 +2,7 @@ import React from 'react';
 
 const Portfolio = () => {
     return (
-        <div className="p-6 bg-gray-100 min-h-screen">
+        <div id="portfolio" className="p-6 bg-gray-100 min-h-screen">
             <h1 className="text-4xl font-bold text-center mb-8 text-gray-800">Portfolio</h1>
             <ul className="list-disc list-inside mb-8 space-y-2 text-lg text-gray-700">
                 <li className="hover:text-blue-500 transition-colors duration-300">Portfolio Item 1</li>

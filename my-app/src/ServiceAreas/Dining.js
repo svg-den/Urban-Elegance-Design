@@ -1,6 +1,7 @@
 import React from "react";
 import Slider from "react-slick";
-import dining1 from "../assets/dining1.jpeg";
+import { NextArrow, PrevArrow } from "../components/CustomArrows"; 
+import dining1 from "../assets/dining1.jpeg"
 import dining2 from "../assets/dining2.jpeg";
 import dining3 from "../assets/dining3.jpeg";
 import dining4 from "../assets/dining4.jpeg";
@@ -16,6 +17,9 @@ const Dining = () => {
     autoplay: true,
     autoplaySpeed: 3000,
     pauseOnHover: true,
+    nextArrow: <NextArrow />, 
+    prevArrow: <PrevArrow />, 
+
   };
 
   return (
@@ -26,7 +30,7 @@ const Dining = () => {
               <img
                 src={dining1}
                 alt="Dining Area 1"
-                className="w-1/5 h-64 object-cover rounded-lg mx-auto"
+                className="w-2/5 h-640 object-cover rounded-lg mx-auto"
       
               />
             </div>
@@ -34,7 +38,7 @@ const Dining = () => {
               <img
                 src={dining2}
                 alt="Dining Area 2"
-                className="w-1/5 h-64 object-cover rounded-lg mx-auto"
+                className="w-2/5 h-640 object-cover rounded-lg mx-auto"
       
               />
             </div>
@@ -42,7 +46,7 @@ const Dining = () => {
               <img
                 src={dining3}
                 alt="Dining Area 3"
-                className="w-1/5 h-64 object-cover rounded-lg mx-auto"
+                className="w-2/5 h-640 object-cover rounded-lg mx-auto"
       
               />
             </div>
@@ -50,7 +54,7 @@ const Dining = () => {
               <img
                 src={dining4}
                 alt="Dining Area 4"
-                className="w-1/5 h-64 object-cover rounded-lg mx-auto"
+                className="w-2/5 h-640 object-cover rounded-lg mx-auto"
       
               />
             </div>
@@ -58,7 +62,7 @@ const Dining = () => {
               <img
                 src={dining}
                 alt="Dining Area 5"
-                className="w-1/5 h-64 object-cover rounded-lg mx-auto"
+                className="w-2/5 h-640 object-cover rounded-lg mx-auto"
       
               />
             </div>

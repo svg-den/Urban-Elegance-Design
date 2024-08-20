@@ -5,7 +5,7 @@ import React from 'react';
 const About = () => {
   return (
     <div
-      name="about"
+      id="about"
       className="w-full h-screen bg-gradient-to-b from-white
       via-white to-cyan-100 text-black"
     >

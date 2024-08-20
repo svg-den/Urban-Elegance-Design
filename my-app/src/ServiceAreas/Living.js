@@ -1,4 +1,5 @@
 import React from "react";
+import { NextArrow, PrevArrow } from "../components/CustomArrows"; 
 import Slider from "react-slick";
 import living1 from "../assets/living1.jpeg";
 import living2 from "../assets/living2.jpeg";
@@ -16,6 +17,9 @@ const Living = () => {
     autoplay: true,
     autoplaySpeed: 3000,
     pauseOnHover: true,
+    nextArrow: <NextArrow />, 
+    prevArrow: <PrevArrow />, 
+
   };
 
   return (
@@ -27,39 +31,35 @@ const Living = () => {
           <img
             src={living1}
             alt="Living Area 1"
-            className=" w-1/5 h-64 object-cover rounded-lg mx-auto
-                   "
+            className=" w-2/5 h-640 object-cover rounded-lg mx-auto"
           />
         </div>
         <div>
           <img
             src={living2}
             alt="Living Area 2"
-            className="w-1/5 h-64 object-cover rounded-lg mx-auto
-                   "
+            className="w-2/5 h-640 object-cover rounded-lg mx-auto"
           />
         </div>
         <div>
           <img
             src={living3}
             alt="Living Area 3"
-            className="w-1/5 h-64 object-cover rounded-lg mx-auto
-                   "
+            className="w-2/5 h-640 object-cover rounded-lg mx-auto"
           />
         </div>
         <div>
           <img
             src={living4}
             alt="Living Area 4"
-            className="w-1/5 h-64 object-cover rounded-lg mx-auto
-                   "
+            className="w-2/5 h-640 object-cover rounded-lg mx-auto"
           />
         </div>
         <div>
           <img
             src={living5}
             alt="Living Area 5"
-            className="w-1/5 h-640 object-cover rounded-lg"
+            className="w-2/5 h-640 object-cover rounded-lg mx-auto"
           />
         </div>
       </Slider>

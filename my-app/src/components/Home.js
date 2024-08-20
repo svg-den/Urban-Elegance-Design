@@ -43,7 +43,7 @@ function Home() {
   };
 
   return (
-    <div className="home-container min-h-screen bg-gray-100 flex flex-col items-center">
+    <div id="home" className="home-container min-h-screen bg-gray-100 flex flex-col items-center">
       <header className="home-header bg-white shadow-lg p-6 rounded-lg text-center mt-8 w-full max-w-3xl">
         <h1 className="text-4xl font-bold text-gray-800 mb-8">
           Welcome to the Home Page!
