@@ -5,7 +5,7 @@ import Home from './components/Home';
 import About from './components/About';
 import Service from './components/Service';
 import Products from './components/Products';
-import SocialLinks from './components/SocialLinks';
+import Portfolio from './components/Portfolio';
 function App() {
   return (
     <div>
@@ -14,9 +14,9 @@ function App() {
       <About />
       <Service />
       <Products />
+      <Portfolio />
       <Contact /> 
 
-      <SocialLinks />
     </div>
   );
 }

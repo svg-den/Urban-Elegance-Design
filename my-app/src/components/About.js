@@ -6,8 +6,7 @@ const About = () => {
   return (
     <div
       id="about"
-      className="w-full h-screen bg-gradient-to-b from-white
-      via-white to-cyan-100 text-black"
+      className="w-full h-screen bg-gray-100 text-black"
     >
       <div
         className="max-w-screen-lg p-4 mx-auto flex flex-col

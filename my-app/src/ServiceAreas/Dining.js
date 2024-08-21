@@ -24,7 +24,7 @@ const Dining = () => {
 
   return (
     <div className="p-8 px-16 font-sans">
-          <h2 className="text-3xl font-bold text-gray-800 mb-4">Dining</h2>
+          <h2 className="text-3xl font-bold text-gray-100 mb-4">Dining</h2>
           <Slider {...settings}>
             <div>
               <img

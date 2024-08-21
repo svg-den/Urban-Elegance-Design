@@ -10,11 +10,10 @@ import Outdoor from "../ServiceAreas/Outdoor";
 const Service = () => {
   return (
     <Router>
-<div id="services" className="max-w-screen-lg mt-8 py-10 px-4 mx-auto flex flex-col justify-center w-full h-full">
-  {/* <h1 className="text-4xl font-bold mb-8">Our Services</h1> */}
-  <h3 className="text-4xl text-center font-bold text-gray-800 mb-14 underline">
+<div id="services" className='footer-container bg-gray-800 text-white mt-9 py-8 px-4'>
+  <h3 className="text-4xl text-center font-bold text-gray-100 mb-4 underline">
     Our Service Areas
-  </h3>        {/* Service Links */}
+  </h3>        
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-8 text-center">
           <div className="px-16">
             <Link
