@@ -11,7 +11,6 @@ const Service = () => {
   return (
     <Router>
 <div id="services" className='footer-container bg-gray-800 text-white mt-9 py-8 px-4'>
-  {/* <h1 className="text-4xl font-bold mb-8">Our Services</h1> */}
   <h3 className="text-4xl text-center font-bold text-gray-100 mb-4 underline">
     Our Service Areas
   </h3>        

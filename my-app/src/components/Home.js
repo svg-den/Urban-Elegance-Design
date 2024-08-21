@@ -44,8 +44,8 @@ function Home() {
 
   return (         
     <div id="home" className="home-container min-h-screen bg-gray-800 flex flex-col items-center">
-      <header className="home-header bg-white shadow-lg p-6 rounded-lg text-center mt-8 w-full max-w-3xl">
-        <h1 className="text-4xl font-bold text-gray-800 mb-8">
+      <header className="home-header bg-white shadow-lg p-10 rounded-lg text-center mt-10 w-full max-w-3xl">
+        <h1 className="text-4xl p-5 font-bold text-gray-800 mb-8">
           Welcome to the Home Page!
         </h1>
         <p className="text-lg text-gray-600">
@@ -53,12 +53,12 @@ function Home() {
         </p>
       </header>
       <section className="featured-projects mt-12 w-full max-w-4xl">
-        <h2 className="text-2xl font-semibold text-gray-800 mb-6">
+        <h2 className="text-2xl font-semibold text-gray-200 mb-6">
           Featured Projects
         </h2>
         <Slider {...settings}>
           <div>
-            <h3 className="text-xl font-bold text-gray-800 mb-4">Custom Kitchen</h3>
+            <h3 className="text-xl font-bold text-gray-100 mb-4">Custom Kitchen</h3>
             <div className="grid grid-cols-4 gap-2">
               <img src={kitchen} alt="Custom Kitchen" className="rounded-lg" />
               <img src={kitchen1} alt="Custom Kitchen 1" className="rounded-lg" />
@@ -71,7 +71,7 @@ function Home() {
             </div>
           </div>
           <div>
-            <h3 className="text-xl font-bold text-gray-800 mb-4">Custom Bathroom</h3>
+            <h3 className="text-xl font-bold text-gray-100 mb-4">Custom Bathroom</h3>
             <div className="grid grid-cols-4 gap-2">
               <img src={bathroom} alt="Custom Bathroom" className="rounded-lg" />
               <img src={bathroom1} alt="Custom Bathroom 1" className="rounded-lg" />
@@ -84,7 +84,7 @@ function Home() {
             </div>
           </div>
           <div>
-            <h3 className="text-xl font-bold text-gray-800 mb-4">Custom Bedroom</h3>
+            <h3 className="text-xl font-bold text-gray-100 mb-4">Custom Bedroom</h3>
             <div className="grid grid-cols-4 gap-2">
               <img src={bedroom} alt="Custom Bedroom" className="rounded-lg" />
               <img src={bedroom2} alt="Custom Bedroom 2" className="rounded-lg" />
