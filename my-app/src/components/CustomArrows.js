@@ -13,7 +13,16 @@ const NextArrow = (props) => {
   );
 };
 
-
+const PrevArrow = (props) => {
+  const { className, style, onClick } = props;
+  return (
+    <div
+      className={`${className} custom-arrow custom-prev-arrow`}
+      style={{ ...style, display: "block", left: "10px", zIndex: 1 }}
+      onClick={onClick}
+    >
+    </div>
+  );
 };
 
 export { NextArrow, PrevArrow };
