@@ -1,7 +1,5 @@
 import React from "react";
-// import { FaArrowRight, FaArrowLeft } from "react-icons/fa";
 
-// Custom Next Arrow
 const NextArrow = (props) => {
   const { className, style, onClick } = props;
   return (
@@ -15,7 +13,6 @@ const NextArrow = (props) => {
   );
 };
 
-// Custom Previous Arrow
 const PrevArrow = (props) => {
   const { className, style, onClick } = props;
   return (
