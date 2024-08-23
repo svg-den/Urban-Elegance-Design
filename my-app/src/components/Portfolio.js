@@ -14,7 +14,7 @@ const Portfolio = () => {
 
     const projects = [
         { id: 1, title: "Office Boardroom", type: 'video', content: video1 },
-        { id: 2, title: "Managers Room", type: 'video', content: video2 },
+        { id: 2, title: "Manager's Room", type: 'video', content: video2 },
         { id: 3, title: "Project 3", type: 'images', content: [image1, image2, image3, image4, image5, image6] },
     ];
 
