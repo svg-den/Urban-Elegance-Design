@@ -1,6 +1,6 @@
 import React from "react";
 
-function Footer () {
+function Footer() {
     return (
         <div>
             <div className='contact-info text-center mb-8'>
@@ -12,26 +12,12 @@ function Footer () {
                 <p>info@urbanelegance.com</p>
             </div>
             
-            <div className="social-icons flex justify-center space-x-4">
-                <a href="https://www.facebook.com/yourpage" className="text-2xl hover:text-blue-500" target="_blank" rel="noopener noreferrer">
-                    <i className="fab fa-facebook-square"></i>
-                </a>
-                <a href="https://twitter.com/yourprofile" className="text-2xl hover:text-blue-300" target="_blank" rel="noopener noreferrer">
-                    <i className="fab fa-twitter"></i>
-                </a>
-                <a href="https://www.instagram.com/yourprofile" className="text-2xl hover:text-pink-500" target="_blank" rel="noopener noreferrer">
-                    <i className="fab fa-instagram"></i>
-                </a>
-                <a href="https://www.linkedin.com/in/yourprofile" className="text-2xl hover:text-blue-700" target="_blank" rel="noopener noreferrer">
-                    <i className="fab fa-linkedin"></i>
-                </a>
-                <a href="https://wa.me/yourwhatsapplink" className="text-2xl hover:text-green-500" target="_blank" rel="noopener noreferrer">
-                    <i className="fab fa-whatsapp"></i>
-                </a>
-            </div>
+         
             <p className="p-4 flex justify-center text-gray-500">Copyright 2024. All Rights Reserved</p>
         </div>
     );
-};
+}
 
 export default Footer;
+
+
