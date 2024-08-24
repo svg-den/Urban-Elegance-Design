@@ -2,6 +2,8 @@ import React, { useState } from 'react';
 
 import video1 from '../assets/Modern.mp4';
 import video2 from '../assets/cabin.mp4';
+import HR from '../assets/HR.mp4';
+import video4 from '../assets/office1.mp4';
 import image1 from '../assets/image1.jpeg';
 import image2 from '../assets/image2.jpeg';
 import image3 from '../assets/image3.jpeg';
@@ -15,7 +17,9 @@ const Portfolio = () => {
     const projects = [
         { id: 1, title: "Office Boardroom", type: 'video', content: video1 },
         { id: 2, title: "Manager's Room", type: 'video', content: video2 },
-        { id: 3, title: "Project 3", type: 'images', content: [image1, image2, image3, image4, image5, image6] },
+        { id: 3, title: "HR", type: 'video', content: HR },
+        { id: 4, title: "Office HR1", type: 'video', content: video4 },
+        { id: 5, title: "Project 3", type: 'images', content: [image1, image2, image3, image4, image5, image6] },
     ];
 
     const handleProjectClick = (projectId) => {

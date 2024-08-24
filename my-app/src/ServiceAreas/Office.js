@@ -6,6 +6,11 @@ import office2 from "../assets/office2.jpeg";
 import office3 from "../assets/office3.jpeg";
 import office4 from "../assets/office4.jpeg";
 import office5 from "../assets/office5.jpeg";
+import office6 from "../assets/oFFICE.jpeg";
+import office7 from "../assets/OFFICE.jpeg";
+import office8 from "../assets/workarea.jpeg";
+import office9 from "../assets/officedesk.jpeg";
+import office10 from "../assets/officedesk1.jpeg";
 
 const Office = () => {
   const settings = {
@@ -61,6 +66,46 @@ const Office = () => {
               <img
                 src={office5}
                 alt="Office Area 5"
+                className="w-1/5 h-64 object-cover rounded-lg mx-auto"
+       
+              />
+            </div>
+            <div>
+              <img
+                src={office6}
+                alt="Office Area 6"
+                className="w-1/5 h-64 object-cover rounded-lg mx-auto"
+       
+              />
+            </div>
+            <div>
+              <img
+                src={office7}
+                alt="Office Area 7"
+                className="w-1/5 h-64 object-cover rounded-lg mx-auto"
+       
+              />
+            </div>
+            <div>
+              <img
+                src={office8}
+                alt="Office Area 8"
+                className="w-1/5 h-64 object-cover rounded-lg mx-auto"
+       
+              />
+            </div>
+            <div>
+              <img
+                src={office9}
+                alt="Office Area 9"
+                className="w-1/5 h-64 object-cover rounded-lg mx-auto"
+       
+              />
+            </div>
+            <div>
+              <img
+                src={office10}
+                alt="Office Area 10"
                 className="w-1/5 h-64 object-cover rounded-lg mx-auto"
        
               />
