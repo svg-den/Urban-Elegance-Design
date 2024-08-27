@@ -46,7 +46,7 @@ function Home() {
     <div id="home" className="home-container min-h-screen bg-gray-800 flex flex-col items-center">
       <header className="home-header bg-white shadow-lg p-10 rounded-lg text-center mt-10 w-full max-w-3xl">
         <h1 className="text-4xl p-5 font-bold text-gray-800 mb-8">
-          Welcome to the Home Page!
+          Welcome to Urban Elegance Designs!
         </h1>
         <p className="text-lg text-gray-600">
           Transforming your home into a warm luxurious house.
