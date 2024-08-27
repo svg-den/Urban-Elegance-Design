@@ -25,7 +25,7 @@ const Sleeping = () => {
   return (
     <div className="p-8 px-16 font-sans">
       <div className="mb-16 px-16">
-        <h2 className="text-3xl font-bold mb-8">Sleeping Area</h2>
+        <h2 className="text-3xl font-bold mb-8">Sleeping Area Designs</h2>
         <Slider {...settings}>
           <div>
             <img
