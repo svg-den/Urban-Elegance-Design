@@ -49,7 +49,7 @@ function Home() {
           Welcome to Urban Elegance Designs!
         </h1>
         <p className="text-lg text-gray-600">
-          Transforming your home into a warm luxurious house.
+          Transforming your house into a warm luxurious Home.
         </p>
       </header>
       <section className="featured-projects mt-12 w-full max-w-4xl">
