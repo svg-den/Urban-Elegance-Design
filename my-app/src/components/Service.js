@@ -10,7 +10,7 @@ import Outdoor from "../ServiceAreas/Outdoor";
 const Service = () => {
   return (
     <Router>
-<div id="services" className='footer-container bg-gray-800 text-white mt-9 py-8 px-4'>
+<div id="product/services" className='footer-container bg-gray-800 text-white mt-9 py-8 px-4'>
   <h3 className="text-4xl text-center font-bold text-gray-100 mb-4 underline">
     Products & Service Areas
   </h3>        
